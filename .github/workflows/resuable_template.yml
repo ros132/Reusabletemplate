@@ -1,5 +1,5 @@
 
-name: Maven and SCA_SAST scan with DC and FindSecBug
+name: Maven CI/CD
 
 on:
   push:
