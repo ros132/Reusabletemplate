@@ -1,11 +1,10 @@
-
-name: Maven CI/CD
+name: MVN build, SAST and SCA 
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "develop" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "develop" ]
 
 jobs:
   BuildWithGitHubActions:
@@ -55,4 +54,3 @@ jobs:
       with:
         name: findsecbugs-report
         path: findsecbugs-results.html
-
